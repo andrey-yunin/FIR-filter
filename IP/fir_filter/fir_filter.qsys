@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system name="$${FILENAME}">
+ <component
+   name="$${FILENAME}"
+   displayName="$${FILENAME}"
+   version="1.0"
+   description=""
+   tags="INTERNAL_COMPONENT=false"
+   categories="HLS" />
+ <parameter name="bonusData"><![CDATA[bonusData 
+{
+   element fir_filter_internal_inst
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+   }
+}
+]]></parameter>
+ <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
+ <parameter name="device" value="10M50DAF672I7G" />
+ <parameter name="deviceFamily" value="MAX 10" />
+ <parameter name="deviceSpeedGrade" value="7" />
+ <parameter name="fabricMode" value="QSYS" />
+ <parameter name="generateLegacySim" value="false" />
+ <parameter name="generationId" value="0" />
+ <parameter name="globalResetBus" value="false" />
+ <parameter name="hdlLanguage" value="VERILOG" />
+ <parameter name="hideFromIPCatalog" value="false" />
+ <parameter name="lockedInterfaceDefinition" value="" />
+ <parameter name="maxAdditionalLatency" value="1" />
+ <parameter name="projectName" value="" />
+ <parameter name="sopcBorderPoints" value="false" />
+ <parameter name="systemHash" value="0" />
+ <parameter name="testBenchDutName" value="" />
+ <parameter name="timeStamp" value="0" />
+ <parameter name="useTestBenchNamingPattern" value="false" />
+ <instanceScript></instanceScript>
+ <interface
+   name="call"
+   internal="fir_filter_internal_inst.call"
+   type="conduit"
+   dir="end">
+  <port name="start" internal="start" />
+  <port name="busy" internal="busy" />
+ </interface>
+ <interface
+   name="clock"
+   internal="fir_filter_internal_inst.clock"
+   type="clock"
+   dir="end">
+  <port name="clock" internal="clock" />
+ </interface>
+ <interface
+   name="fir_in"
+   internal="fir_filter_internal_inst.fir_in"
+   type="avalon_streaming"
+   dir="end">
+  <port name="fir_in_data" internal="fir_in_data" />
+  <port name="fir_in_ready" internal="fir_in_ready" />
+  <port name="fir_in_valid" internal="fir_in_valid" />
+ </interface>
+ <interface
+   name="fir_out"
+   internal="fir_filter_internal_inst.fir_out"
+   type="avalon_streaming"
+   dir="start">
+  <port name="fir_out_data" internal="fir_out_data" />
+  <port name="fir_out_ready" internal="fir_out_ready" />
+  <port name="fir_out_valid" internal="fir_out_valid" />
+ </interface>
+ <interface
+   name="reset"
+   internal="fir_filter_internal_inst.reset"
+   type="reset"
+   dir="end">
+  <port name="resetn" internal="resetn" />
+ </interface>
+ <interface
+   name="return"
+   internal="fir_filter_internal_inst.return"
+   type="conduit"
+   dir="end">
+  <port name="done" internal="done" />
+  <port name="stall" internal="stall" />
+ </interface>
+ <module
+   name="fir_filter_internal_inst"
+   kind="fir_filter_internal"
+   version="1.0"
+   enabled="1"
+   autoexport="1" />
+ <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
+ <interconnectRequirement for="$system" name="qsys_mm.enableEccProtection" value="FALSE" />
+ <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="FALSE" />
+ <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
+</system>

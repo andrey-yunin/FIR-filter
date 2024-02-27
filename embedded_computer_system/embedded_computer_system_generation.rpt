@@ -1,0 +1,275 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Andrey\AGSTU\HLS_course\Projects\CASE_4\CASE_4\embedded_computer_system.qsys --block-symbol-file --output-directory=C:\Andrey\AGSTU\HLS_course\Projects\CASE_4\CASE_4\embedded_computer_system --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading CASE_4/embedded_computer_system.qsys
+Progress: Reading input file
+Progress: Adding TIMER_HW_IP_0 [TIMER_HW_IP 1.1]
+Progress: Parameterizing module TIMER_HW_IP_0
+Progress: Adding VGA_IP_0 [VGA_IP 1.4]
+Progress: Parameterizing module VGA_IP_0
+Progress: Adding buffer_0 [sample_buffer 1.0]
+Progress: Reading input file
+Progress: Adding sample_buffer_internal_inst [sample_buffer_internal 1.0]
+Progress: Parameterizing module sample_buffer_internal_inst
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Progress: Parameterizing module buffer_0
+Progress: Adding buffer_1 [result_buffer 1.0]
+Progress: Reading input file
+Progress: Adding result_buffer_internal_inst [result_buffer_internal 1.0]
+Progress: Parameterizing module result_buffer_internal_inst
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Progress: Parameterizing module buffer_1
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding filter_0 [fir_filter 1.0]
+Progress: Reading input file
+Progress: Adding fir_filter_internal_inst [fir_filter_internal 1.0]
+Progress: Parameterizing module fir_filter_internal_inst
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Progress: Parameterizing module filter_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding onchip_ram [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_ram
+Progress: Adding pll [altpll 18.1]
+Progress: Parameterizing module pll
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: embedded_computer_system.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: embedded_computer_system.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: embedded_computer_system.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: embedded_computer_system.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Andrey\AGSTU\HLS_course\Projects\CASE_4\CASE_4\embedded_computer_system.qsys --synthesis=VHDL --output-directory=C:\Andrey\AGSTU\HLS_course\Projects\CASE_4\CASE_4\embedded_computer_system\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading CASE_4/embedded_computer_system.qsys
+Progress: Reading input file
+Progress: Adding TIMER_HW_IP_0 [TIMER_HW_IP 1.1]
+Progress: Parameterizing module TIMER_HW_IP_0
+Progress: Adding VGA_IP_0 [VGA_IP 1.4]
+Progress: Parameterizing module VGA_IP_0
+Progress: Adding buffer_0 [sample_buffer 1.0]
+Progress: Parameterizing module buffer_0
+Progress: Adding buffer_1 [result_buffer 1.0]
+Progress: Parameterizing module buffer_1
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding filter_0 [fir_filter 1.0]
+Progress: Parameterizing module filter_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding onchip_ram [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_ram
+Progress: Adding pll [altpll 18.1]
+Progress: Parameterizing module pll
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: embedded_computer_system.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: embedded_computer_system.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: embedded_computer_system.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: embedded_computer_system.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: embedded_computer_system: Generating embedded_computer_system "embedded_computer_system" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src8 and cmd_mux_008.sink0
+Info: Inserting clock-crossing logic between rsp_demux_008.src0 and rsp_mux.sink8
+Info: TIMER_HW_IP_0: "embedded_computer_system" instantiated TIMER_HW_IP "TIMER_HW_IP_0"
+Info: VGA_IP_0: "embedded_computer_system" instantiated VGA_IP "VGA_IP_0"
+Info: buffer_0: "embedded_computer_system" instantiated sample_buffer "buffer_0"
+Info: buffer_1: "embedded_computer_system" instantiated result_buffer "buffer_1"
+Info: cpu: "embedded_computer_system" instantiated altera_nios2_gen2 "cpu"
+Info: filter_0: "embedded_computer_system" instantiated fir_filter "filter_0"
+Info: jtag_uart: Starting RTL generation for module 'embedded_computer_system_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=embedded_computer_system_jtag_uart --dir=C:/Users/Andrey/AppData/Local/Temp/alt8985_3733425454102864625.dir/0004_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Andrey/AppData/Local/Temp/alt8985_3733425454102864625.dir/0004_jtag_uart_gen//embedded_computer_system_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'embedded_computer_system_jtag_uart'
+Info: jtag_uart: "embedded_computer_system" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: onchip_ram: Starting RTL generation for module 'embedded_computer_system_onchip_ram'
+Info: onchip_ram:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=embedded_computer_system_onchip_ram --dir=C:/Users/Andrey/AppData/Local/Temp/alt8985_3733425454102864625.dir/0005_onchip_ram_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Andrey/AppData/Local/Temp/alt8985_3733425454102864625.dir/0005_onchip_ram_gen//embedded_computer_system_onchip_ram_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_ram: Done RTL generation for module 'embedded_computer_system_onchip_ram'
+Info: onchip_ram: "embedded_computer_system" instantiated altera_avalon_onchip_memory2 "onchip_ram"
+Info: pll: "embedded_computer_system" instantiated altpll "pll"
+Info: sdram_controller: Starting RTL generation for module 'embedded_computer_system_sdram_controller'
+Info: sdram_controller:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=embedded_computer_system_sdram_controller --dir=C:/Users/Andrey/AppData/Local/Temp/alt8985_3733425454102864625.dir/0008_sdram_controller_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Andrey/AppData/Local/Temp/alt8985_3733425454102864625.dir/0008_sdram_controller_gen//embedded_computer_system_sdram_controller_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram_controller: Done RTL generation for module 'embedded_computer_system_sdram_controller'
+Info: sdram_controller: "embedded_computer_system" instantiated altera_avalon_new_sdram_controller "sdram_controller"
+Info: sysid_qsys_0: "embedded_computer_system" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "embedded_computer_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "embedded_computer_system" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "embedded_computer_system" instantiated altera_reset_controller "rst_controller"
+Info: sample_buffer_internal_inst: "buffer_0" instantiated sample_buffer_internal "sample_buffer_internal_inst"
+Info: result_buffer_internal_inst: "buffer_1" instantiated result_buffer_internal "result_buffer_internal_inst"
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/dspba_library_package.vhd
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/dspba_library.vhd
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_data_fifo.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_fifo.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ll_fifo.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ll_ram_fifo.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_valid_fifo_counter.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_dspba_valid_fifo_counter.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_staging_reg.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/hld_fifo.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/hld_fifo_zero_width.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_high_speed_fifo.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_low_latency_fifo.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_zero_latency_fifo.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_fanout_pipeline.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_std_synchronizer_nocut.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_tessellated_incr_decr_threshold.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_tessellated_incr_lookahead.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_reset_handler.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_lfsr.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_pop.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_push.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_token_fifo_counter.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_pipeline.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_dspba_buffer.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_enable_sink.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/st_top.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_top.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_permute_address.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_pipelined.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_enabled.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_basic_coalescer.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_simple.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_streaming.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_burst_master.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_bursting_load_stores.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_non_aligned_write.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_read_cache.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_atomic.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_prefetch_block.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_wide_wrapper.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_streaming_prefetch.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_aligned_burst_coalesced_lsu.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_toggle_detect.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_debug_mem.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_burst_coalesced_pipelined_write.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/lsu_burst_coalesced_pipelined_read.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_fifo_stall_valid_lookahead.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_full_detector.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_reset_wire.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_avm_to_ic.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_mem1x.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_mem_staging_reg.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ic_local_mem_router.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ic_master_endpoint.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_arb_intf.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ic_intf.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ic_slave_endpoint.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ic_slave_rrp.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ic_slave_wrp.v
+Info: cpu: Starting RTL generation for module 'embedded_computer_system_cpu_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=embedded_computer_system_cpu_cpu --dir=C:/Users/Andrey/AppData/Local/Temp/alt8985_3733425454102864625.dir/0014_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Andrey/AppData/Local/Temp/alt8985_3733425454102864625.dir/0014_cpu_gen//embedded_computer_system_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2021.12.24 20:58:28 (*) Starting Nios II generation
+Info: cpu: # 2021.12.24 20:58:28 (*)   Checking for plaintext license.
+Info: cpu: # 2021.12.24 20:58:29 (*)   Plaintext license not found.
+Info: cpu: # 2021.12.24 20:58:29 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2021.12.24 20:58:29 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2021.12.24 20:58:29 (*)   Creating all objects for CPU
+Info: cpu: # 2021.12.24 20:58:30 (*)   Generating RTL from CPU objects
+Info: cpu: # 2021.12.24 20:58:30 (*)   Creating plain-text RTL
+Info: cpu: # 2021.12.24 20:58:31 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'embedded_computer_system_cpu_cpu'
+Info: cpu: "cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: fir_filter_internal_inst: "filter_0" instantiated fir_filter_internal "fir_filter_internal_inst"
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/dspba_library_package.vhd
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/dspba_library.vhd
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_data_fifo.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_fifo.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ll_fifo.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_ll_ram_fifo.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_valid_fifo_counter.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_dspba_valid_fifo_counter.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_staging_reg.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/hld_fifo.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/hld_fifo_zero_width.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_high_speed_fifo.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_low_latency_fifo.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_zero_latency_fifo.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_fanout_pipeline.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_std_synchronizer_nocut.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_tessellated_incr_decr_threshold.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_tessellated_incr_lookahead.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_reset_handler.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_lfsr.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_pop.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_push.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_token_fifo_counter.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_pipeline.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_dspba_buffer.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_enable_sink.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/st_top.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_full_detector.v
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/acl_reset_wire.v
+Info: cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: router_009: "mm_interconnect_0" instantiated altera_merlin_router "router_009"
+Info: router_012: "mm_interconnect_0" instantiated altera_merlin_router "router_012"
+Info: sdram_controller_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "sdram_controller_s1_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_007: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_007"
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_007: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_007"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: buffer_0_avs_cra_cmd_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "buffer_0_avs_cra_cmd_width_adapter"
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/embedded_computer_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_003: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_003"
+Info: avalon_st_adapter_010: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_010"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_003" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_010" instantiated error_adapter "error_adapter_0"
+Info: embedded_computer_system: Done "embedded_computer_system" with 47 modules, 343 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

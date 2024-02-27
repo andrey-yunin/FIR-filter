@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Dec 24 21:02:46 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : CASE_4
+Top-level Entity Name : CASE_4
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 6,233 / 49,760 ( 13 % )
+    Total combinational functions : 5,495 / 49,760 ( 11 % )
+    Dedicated logic registers : 2,956 / 49,760 ( 6 % )
+Total registers : 3025
+Total pins : 64 / 360 ( 18 % )
+Total virtual pins : 0
+Total memory bits : 568,864 / 1,677,312 ( 34 % )
+Embedded Multiplier 9-bit elements : 32 / 288 ( 11 % )
+Total PLLs : 2 / 4 ( 50 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

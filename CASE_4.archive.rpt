@@ -1,0 +1,428 @@
+Archive Project report for CASE_4
+Sun Dec 26 12:31:30 2021
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun Dec 26 12:31:30 2021 ;
+; Revision Name          ; CASE_4                                ;
+; Top-level Entity Name  ; CASE_4                                ;
+; Family                 ; MAX 10                                ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Andrey/AGSTU/HLS_course/Projects/CASE_4/CASE_4/CASE_4.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'CASE_4.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4848 megabytes
+    Info: Processing ended: Sun Dec 26 12:31:30 2021
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:04
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                                                    ;
++-----------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                         ;
++-----------------------------------------------------------------------------------------------------------------------------------+
+; c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf                                                                      ;
+; CASE_4.qpf                                                                                                                        ;
+; CASE_4.qsf                                                                                                                        ;
+; CASE_4.vhd                                                                                                                        ;
+; embedded_computer_system/synthesis/../../embedded_computer_system.qsys                                                            ;
+; embedded_computer_system/synthesis/../../embedded_computer_system.sopcinfo                                                        ;
+; embedded_computer_system/synthesis/../embedded_computer_system.cmp                                                                ;
+; embedded_computer_system/synthesis/embedded_computer_system.debuginfo                                                             ;
+; embedded_computer_system/synthesis/embedded_computer_system.qip                                                                   ;
+; embedded_computer_system/synthesis/embedded_computer_system.regmap                                                                ;
+; embedded_computer_system/synthesis/embedded_computer_system.vhd                                                                   ;
+; embedded_computer_system/synthesis/embedded_computer_system_rst_controller.vhd                                                    ;
+; embedded_computer_system/synthesis/embedded_computer_system_rst_controller_001.vhd                                                ;
+; embedded_computer_system/synthesis/embedded_computer_system_rst_controller_002.vhd                                                ;
+; embedded_computer_system/synthesis/submodules/acl_aligned_burst_coalesced_lsu.v                                                   ;
+; embedded_computer_system/synthesis/submodules/acl_arb_intf.v                                                                      ;
+; embedded_computer_system/synthesis/submodules/acl_avm_to_ic.v                                                                     ;
+; embedded_computer_system/synthesis/submodules/acl_data_fifo.v                                                                     ;
+; embedded_computer_system/synthesis/submodules/acl_debug_mem.v                                                                     ;
+; embedded_computer_system/synthesis/submodules/acl_dspba_buffer.v                                                                  ;
+; embedded_computer_system/synthesis/submodules/acl_dspba_valid_fifo_counter.v                                                      ;
+; embedded_computer_system/synthesis/submodules/acl_enable_sink.v                                                                   ;
+; embedded_computer_system/synthesis/submodules/acl_fanout_pipeline.sv                                                              ;
+; embedded_computer_system/synthesis/submodules/acl_ffwdsrc.v                                                                       ;
+; embedded_computer_system/synthesis/submodules/acl_fifo.v                                                                          ;
+; embedded_computer_system/synthesis/submodules/acl_fifo_stall_valid_lookahead.sv                                                   ;
+; embedded_computer_system/synthesis/submodules/acl_full_detector.v                                                                 ;
+; embedded_computer_system/synthesis/submodules/acl_high_speed_fifo.sv                                                              ;
+; embedded_computer_system/synthesis/submodules/acl_ic_intf.v                                                                       ;
+; embedded_computer_system/synthesis/submodules/acl_ic_local_mem_router.v                                                           ;
+; embedded_computer_system/synthesis/submodules/acl_ic_master_endpoint.v                                                            ;
+; embedded_computer_system/synthesis/submodules/acl_ic_slave_endpoint.v                                                             ;
+; embedded_computer_system/synthesis/submodules/acl_ic_slave_rrp.v                                                                  ;
+; embedded_computer_system/synthesis/submodules/acl_ic_slave_wrp.v                                                                  ;
+; embedded_computer_system/synthesis/submodules/acl_lfsr.sv                                                                         ;
+; embedded_computer_system/synthesis/submodules/acl_ll_fifo.v                                                                       ;
+; embedded_computer_system/synthesis/submodules/acl_ll_ram_fifo.v                                                                   ;
+; embedded_computer_system/synthesis/submodules/acl_loop_limiter.v                                                                  ;
+; embedded_computer_system/synthesis/submodules/acl_low_latency_fifo.sv                                                             ;
+; embedded_computer_system/synthesis/submodules/acl_mem1x.v                                                                         ;
+; embedded_computer_system/synthesis/submodules/acl_mem_staging_reg.v                                                               ;
+; embedded_computer_system/synthesis/submodules/acl_pipeline.v                                                                      ;
+; embedded_computer_system/synthesis/submodules/acl_pop.v                                                                           ;
+; embedded_computer_system/synthesis/submodules/acl_push.v                                                                          ;
+; embedded_computer_system/synthesis/submodules/acl_reset_handler.sv                                                                ;
+; embedded_computer_system/synthesis/submodules/acl_reset_wire.v                                                                    ;
+; embedded_computer_system/synthesis/submodules/acl_staging_reg.v                                                                   ;
+; embedded_computer_system/synthesis/submodules/acl_std_synchronizer_nocut.v                                                        ;
+; embedded_computer_system/synthesis/submodules/acl_tessellated_incr_decr_threshold.sv                                              ;
+; embedded_computer_system/synthesis/submodules/acl_tessellated_incr_lookahead.sv                                                   ;
+; embedded_computer_system/synthesis/submodules/acl_toggle_detect.v                                                                 ;
+; embedded_computer_system/synthesis/submodules/acl_token_fifo_counter.v                                                            ;
+; embedded_computer_system/synthesis/submodules/acl_valid_fifo_counter.v                                                            ;
+; embedded_computer_system/synthesis/submodules/acl_zero_latency_fifo.sv                                                            ;
+; embedded_computer_system/synthesis/submodules/altera_avalon_sc_fifo.v                                                             ;
+; embedded_computer_system/synthesis/submodules/altera_avalon_st_clock_crosser.v                                                    ;
+; embedded_computer_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.sdc                                        ;
+; embedded_computer_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v                                          ;
+; embedded_computer_system/synthesis/submodules/altera_avalon_st_pipeline_base.v                                                    ;
+; embedded_computer_system/synthesis/submodules/altera_avalon_st_pipeline_stage.sv                                                  ;
+; embedded_computer_system/synthesis/submodules/altera_default_burst_converter.sv                                                   ;
+; embedded_computer_system/synthesis/submodules/altera_incr_burst_converter.sv                                                      ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_address_alignment.sv                                                  ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_arbitrator.sv                                                         ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_burst_adapter.sv                                                      ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv                                                 ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_burst_adapter_new.sv                                                  ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv                                               ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv                                                 ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_master_agent.sv                                                       ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_master_translator.sv                                                  ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_slave_agent.sv                                                        ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_slave_translator.sv                                                   ;
+; embedded_computer_system/synthesis/submodules/altera_merlin_width_adapter.sv                                                      ;
+; embedded_computer_system/synthesis/submodules/altera_reset_controller.sdc                                                         ;
+; embedded_computer_system/synthesis/submodules/altera_reset_controller.v                                                           ;
+; embedded_computer_system/synthesis/submodules/altera_reset_synchronizer.v                                                         ;
+; embedded_computer_system/synthesis/submodules/altera_std_synchronizer_nocut.v                                                     ;
+; embedded_computer_system/synthesis/submodules/altera_wrap_burst_converter.sv                                                      ;
+; embedded_computer_system/synthesis/submodules/bb_fir_filter_B0_runOnce.vhd                                                        ;
+; embedded_computer_system/synthesis/submodules/bb_fir_filter_B0_runOnce_stall_region.vhd                                           ;
+; embedded_computer_system/synthesis/submodules/bb_fir_filter_B1_start.vhd                                                          ;
+; embedded_computer_system/synthesis/submodules/bb_fir_filter_B1_start_stall_region.vhd                                             ;
+; embedded_computer_system/synthesis/submodules/bb_result_buffer_B0_runOnce.vhd                                                     ;
+; embedded_computer_system/synthesis/submodules/bb_result_buffer_B0_runOnce_stall_region.vhd                                        ;
+; embedded_computer_system/synthesis/submodules/bb_result_buffer_B1_start.vhd                                                       ;
+; embedded_computer_system/synthesis/submodules/bb_result_buffer_B1_start_stall_region.vhd                                          ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B0_runOnce.vhd                                                     ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B0_runOnce_stall_region.vhd                                        ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B1_start.vhd                                                       ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B1_start_stall_region.vhd                                          ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B2.vhd                                                             ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B2_sr_1.vhd                                                        ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B2_stall_region.vhd                                                ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B3.vhd                                                             ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B3_sr_0.vhd                                                        ;
+; embedded_computer_system/synthesis/submodules/bb_sample_buffer_B3_stall_region.vhd                                                ;
+; embedded_computer_system/synthesis/submodules/clock_divider.vhd                                                                   ;
+; embedded_computer_system/synthesis/submodules/dspba_library.vhd                                                                   ;
+; embedded_computer_system/synthesis/submodules/dspba_library_package.vhd                                                           ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_buffer_0.vhd                                               ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_buffer_1.vhd                                               ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu.v                                                      ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu_cpu.sdc                                                ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu_cpu.v                                                  ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu_cpu_debug_slave_sysclk.v                               ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu_cpu_debug_slave_tck.v                                  ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu_cpu_debug_slave_wrapper.v                              ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu_cpu_ociram_default_contents.mif                        ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu_cpu_rf_ram_a.mif                                       ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu_cpu_rf_ram_b.mif                                       ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_cpu_cpu_test_bench.v                                       ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_filter_0.vhd                                               ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_irq_mapper.sv                                              ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_jtag_uart.v                                                ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0.v                                        ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_avalon_st_adapter.v                      ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_avalon_st_adapter_003.v                  ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_avalon_st_adapter_003_error_adapter_0.sv ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_avalon_st_adapter_010.v                  ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0.sv ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv     ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_cmd_demux.sv                             ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_cmd_demux_001.sv                         ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_cmd_mux.sv                               ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_cmd_mux_007.sv                           ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_router.sv                                ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_router_001.sv                            ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_router_002.sv                            ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_router_005.sv                            ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_router_009.sv                            ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_router_012.sv                            ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_rsp_demux.sv                             ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_rsp_demux_007.sv                         ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_rsp_mux.sv                               ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_mm_interconnect_0_rsp_mux_001.sv                           ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_onchip_ram.v                                               ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_pll.v                                                      ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_sdram_controller.v                                         ;
+; embedded_computer_system/synthesis/submodules/embedded_computer_system_sysid_qsys_0.v                                             ;
+; embedded_computer_system/synthesis/submodules/fir_filter_B0_runOnce_branch.vhd                                                    ;
+; embedded_computer_system/synthesis/submodules/fir_filter_B0_runOnce_merge.vhd                                                     ;
+; embedded_computer_system/synthesis/submodules/fir_filter_B0_runOnce_merge_reg.vhd                                                 ;
+; embedded_computer_system/synthesis/submodules/fir_filter_B1_start_branch.vhd                                                      ;
+; embedded_computer_system/synthesis/submodules/fir_filter_B1_start_merge.vhd                                                       ;
+; embedded_computer_system/synthesis/submodules/fir_filter_B1_start_merge_reg.vhd                                                   ;
+; embedded_computer_system/synthesis/submodules/fir_filter_function.vhd                                                             ;
+; embedded_computer_system/synthesis/submodules/fir_filter_function_wrapper.vhd                                                     ;
+; embedded_computer_system/synthesis/submodules/fir_filter_internal.v                                                               ;
+; embedded_computer_system/synthesis/submodules/floatComponent_i_sfc_logic_c1_wt_entry_rA0Z463b0c2463a0455u.vhd                     ;
+; embedded_computer_system/synthesis/submodules/hld_fifo.sv                                                                         ;
+; embedded_computer_system/synthesis/submodules/hld_fifo_zero_width.sv                                                              ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going8_sample_buffer6.vhd                                       ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going8_sample_buffer_sr.vhd                                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going8_sample_buffer_valid_fifo.vhd                             ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going_fir_filter6.vhd                                           ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going_fir_filter_sr.vhd                                         ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going_fir_filter_valid_fifo.vhd                                 ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going_result_buffer6.vhd                                        ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going_result_buffer_sr.vhd                                      ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going_result_buffer_valid_fifo.vhd                              ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going_sample_buffer29.vhd                                       ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going_sample_buffer_sr.vhd                                      ;
+; embedded_computer_system/synthesis/submodules/i_acl_pipeline_keep_going_sample_buffer_valid_fifo.vhd                              ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i1_throttle_pop_sample_buffer12.vhd                                       ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i1_throttle_pop_sample_buffer_reg.vhd                                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i1_wt_limpop_fir_filter0.vhd                                              ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i1_wt_limpop_fir_filter_reg.vhd                                           ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i1_wt_limpop_result_buffer0.vhd                                           ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i1_wt_limpop_result_buffer_reg.vhd                                        ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i1_wt_limpop_sample_buffer0.vhd                                           ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i1_wt_limpop_sample_buffer_reg.vhd                                        ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i4_cleanups_pop9_sample_buffer25.vhd                                      ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i4_initerations_pop8_sample_buffer31.vhd                                  ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp18_fir_filter22.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp19_fir_filter26.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp20_fir_filter30.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp21_fir_filter34.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp22_fir_filter38.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp23_fir_filter42.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp24_fir_filter46.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp25_fir_filter50.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp26_fir_filter54.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp27_fir_filter58.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp28_fir_filter62.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp29_fir_filter66.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp30_fir_filter70.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp31_fir_filter74.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp32_fir_filter78.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_coeffs_fir_filter_4qbv_ac_A0Zp33_fir_filter82.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Z10_fir_filter108.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Z11_fir_filter110.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Z12_fir_filter112.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Z13_fir_filter114.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Z14_fir_filter116.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Z15_fir_filter118.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Z16_fir_filter120.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Z17_fir_filter122.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Zop3_fir_filter94.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Zop4_fir_filter96.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Zop5_fir_filter98.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Zp6_fir_filter100.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Zp7_fir_filter102.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Zp8_fir_filter104.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i16_taps_fir_filter_4pav_ac_fiA0Zp9_fir_filter106.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i32_count_result_buffer_4ha_adA0Z_result_buffer58.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i32_i_05_pop7_sample_buffer44.vhd                                         ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i32_s1_fir_filter_4ia_addr_0_pA0Zp34_fir_filter16.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_pop_i33_fpgaindvars_iv_pop6_sample_buffer42.vhd                               ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_lastiniteration_sample_buffer38.vhd                                   ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_notexitcond9_sample_buffer8.vhd                                       ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_notexitcond_fir_filter8.vhd                                           ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_notexitcond_result_buffer8.vhd                                        ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_notexitcond_sample_buffer68.vhd                                       ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_throttle_push_sample_buffer76.vhd                                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_throttle_push_sample_buffer_reg.vhd                                   ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_wt_limpush_fir_filter2.vhd                                            ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_wt_limpush_fir_filter_reg.vhd                                         ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_wt_limpush_result_buffer2.vhd                                         ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_wt_limpush_result_buffer_reg.vhd                                      ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_wt_limpush_sample_buffer2.vhd                                         ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i1_wt_limpush_sample_buffer_reg.vhd                                      ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i4_cleanups_push9_sample_buffer71.vhd                                    ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i4_initerations_push8_sample_buffer34.vhd                                ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh18_fir_filter24.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh19_fir_filter28.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh20_fir_filter32.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh21_fir_filter36.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh22_fir_filter40.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh23_fir_filter44.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh24_fir_filter48.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh25_fir_filter52.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh26_fir_filter56.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh27_fir_filter60.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh28_fir_filter64.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh29_fir_filter68.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh30_fir_filter72.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh31_fir_filter76.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh32_fir_filter80.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_coeffs_fir_filter_4qbv_acA0Zh33_fir_filter84.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Z10_fir_filter138.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Z11_fir_filter136.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Z12_fir_filter134.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Z13_fir_filter132.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Z14_fir_filter130.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Z15_fir_filter128.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Z16_fir_filter126.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Z17_fir_filter124.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Zh3_fir_filter152.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Zh4_fir_filter150.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Zh5_fir_filter148.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Zh6_fir_filter146.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Zh7_fir_filter144.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Zh8_fir_filter142.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i16_taps_fir_filter_4pav_ac_fA0Zh9_fir_filter140.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i32_count_result_buffer_4ha_aA0Z_result_buffer60.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i32_i_05_push7_sample_buffer60.vhd                                       ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i32_s1_fir_filter_4ia_addr_0_A0Zh34_fir_filter90.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_push_i33_fpgaindvars_iv_push6_sample_buffer63.vhd                             ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c0_0_ac_fixed_0ba_01_0_0_A0Z_sample_buffer73.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c0_0_ac_fixed_0ba_01_0_0_A0Zer_full_detector.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c0_0_ac_fixed_0ba_01_0_0_A0Zffer78_data_fifo.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c0_wt_entry_fir_filter_c0A0Zxit_fir_filter10.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c0_wt_entry_result_bufferA0Z_result_buffer10.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c0_wt_entry_sample_bufferA0Z_sample_buffer10.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c1_wt_entry_fir_filter_c1A0Zer_full_detector.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c1_wt_entry_fir_filter_c1A0Zit_fir_filter170.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c1_wt_entry_fir_filter_c1A0Zter173_data_fifo.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c1_wt_entry_result_bufferA0Z_result_buffer67.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c1_wt_entry_result_bufferA0Zer_full_detector.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_acl_sfc_exit_c1_wt_entry_result_bufferA0Zffer69_data_fifo.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_ffwd_dst_cmp4_phi_decision2_xor2_sample_buffer65.vhd                              ;
+; embedded_computer_system/synthesis/submodules/i_ffwd_dst_cmp4_phi_decision2_xor3_sample_buffer58.vhd                              ;
+; embedded_computer_system/synthesis/submodules/i_ffwd_dst_cmp4_phi_decision2_xor4_sample_buffer49.vhd                              ;
+; embedded_computer_system/synthesis/submodules/i_ffwd_dst_unnamed_sample_buffer4_sample_buffer40.vhd                               ;
+; embedded_computer_system/synthesis/submodules/i_ffwd_src_unnamed_sample_buffer2_sample_buffer17.vhd                               ;
+; embedded_computer_system/synthesis/submodules/i_ffwd_src_unnamed_sample_buffer3_sample_buffer21.vhd                               ;
+; embedded_computer_system/synthesis/submodules/i_iord_bl_do_unnamed_fir_filter1_fir_filter12.vhd                                   ;
+; embedded_computer_system/synthesis/submodules/i_iord_bl_do_unnamed_result_buffer1_result_buffer12.vhd                             ;
+; embedded_computer_system/synthesis/submodules/i_iord_bl_do_unnamed_sample_buffer1_sample_buffer14.vhd                             ;
+; embedded_computer_system/synthesis/submodules/i_iord_bl_fir_in_unnamed_fir_filter2_fir_filter13.vhd                               ;
+; embedded_computer_system/synthesis/submodules/i_iord_bl_result_in_unnamed_result_buffeA0Z_result_buffer13.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_iowr_bl_fir_out_unnamed_fir_filter3_fir_filter171.vhd                             ;
+; embedded_computer_system/synthesis/submodules/i_iowr_bl_return_unnamed_fir_filter4_fir_filter172.vhd                              ;
+; embedded_computer_system/synthesis/submodules/i_iowr_bl_return_unnamed_result_buffer4_result_buffer68.vhd                         ;
+; embedded_computer_system/synthesis/submodules/i_iowr_bl_sample_out_unnamed_sample_buffA0Z_sample_buffer74.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_iowr_nb_return_unnamed_sample_buffer7_sample_buffer75.vhd                         ;
+; embedded_computer_system/synthesis/submodules/i_load_unnamed_sample_buffer5_sample_buffer51.vhd                                   ;
+; embedded_computer_system/synthesis/submodules/i_sfc_c0_0_ac_fixed_0ba_01_0_0_0_qeaa_m_A0Z11_sample_buffer.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_sfc_c0_wt_entry_fir_filter_c0_enter_fir_filter.vhd                                ;
+; embedded_computer_system/synthesis/submodules/i_sfc_c0_wt_entry_result_buffer_c0_enter_result_buffer.vhd                          ;
+; embedded_computer_system/synthesis/submodules/i_sfc_c0_wt_entry_sample_buffer_c0_enter_sample_buffer.vhd                          ;
+; embedded_computer_system/synthesis/submodules/i_sfc_c1_wt_entry_fir_filter_c1_enter_fir_filter.vhd                                ;
+; embedded_computer_system/synthesis/submodules/i_sfc_c1_wt_entry_result_buffer_c1_enter_result_buffer.vhd                          ;
+; embedded_computer_system/synthesis/submodules/i_sfc_logic_c0_0_ac_fixed_0ba_01_0_0_0_qA0Z_sample_buffer23.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_sfc_logic_c0_wt_entry_fir_filter_c0_enter_fir_filter4.vhd                         ;
+; embedded_computer_system/synthesis/submodules/i_sfc_logic_c0_wt_entry_result_buffer_c0A0Zr_result_buffer4.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_sfc_logic_c0_wt_entry_sample_buffer_c0A0Zr_sample_buffer4.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_sfc_logic_c1_wt_entry_fir_filter_c1_enA0Zter_fir_filter14.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_sfc_logic_c1_wt_entry_result_buffer_c1A0Z_result_buffer14.vhd                     ;
+; embedded_computer_system/synthesis/submodules/i_store_memdep_result_buffer65.vhd                                                  ;
+; embedded_computer_system/synthesis/submodules/i_syncbuf_result_buffer_sync_buffer_result_buffer62.vhd                             ;
+; embedded_computer_system/synthesis/submodules/i_syncbuf_sample_buffer_sync_buffer_sample_buffer46.vhd                             ;
+; embedded_computer_system/synthesis/submodules/loop_limiter_sample_buffer0.vhd                                                     ;
+; embedded_computer_system/synthesis/submodules/lsu_atomic.v                                                                        ;
+; embedded_computer_system/synthesis/submodules/lsu_basic_coalescer.v                                                               ;
+; embedded_computer_system/synthesis/submodules/lsu_burst_coalesced_pipelined_read.sv                                               ;
+; embedded_computer_system/synthesis/submodules/lsu_burst_coalesced_pipelined_write.sv                                              ;
+; embedded_computer_system/synthesis/submodules/lsu_burst_master.v                                                                  ;
+; embedded_computer_system/synthesis/submodules/lsu_bursting_load_stores.v                                                          ;
+; embedded_computer_system/synthesis/submodules/lsu_enabled.v                                                                       ;
+; embedded_computer_system/synthesis/submodules/lsu_non_aligned_write.v                                                             ;
+; embedded_computer_system/synthesis/submodules/lsu_permute_address.v                                                               ;
+; embedded_computer_system/synthesis/submodules/lsu_pipelined.v                                                                     ;
+; embedded_computer_system/synthesis/submodules/lsu_prefetch_block.v                                                                ;
+; embedded_computer_system/synthesis/submodules/lsu_read_cache.v                                                                    ;
+; embedded_computer_system/synthesis/submodules/lsu_simple.v                                                                        ;
+; embedded_computer_system/synthesis/submodules/lsu_streaming.v                                                                     ;
+; embedded_computer_system/synthesis/submodules/lsu_streaming_prefetch.v                                                            ;
+; embedded_computer_system/synthesis/submodules/lsu_top.v                                                                           ;
+; embedded_computer_system/synthesis/submodules/lsu_wide_wrapper.v                                                                  ;
+; embedded_computer_system/synthesis/submodules/result_buffer_B0_runOnce_branch.vhd                                                 ;
+; embedded_computer_system/synthesis/submodules/result_buffer_B0_runOnce_merge.vhd                                                  ;
+; embedded_computer_system/synthesis/submodules/result_buffer_B0_runOnce_merge_reg.vhd                                              ;
+; embedded_computer_system/synthesis/submodules/result_buffer_B1_start_branch.vhd                                                   ;
+; embedded_computer_system/synthesis/submodules/result_buffer_B1_start_merge.vhd                                                    ;
+; embedded_computer_system/synthesis/submodules/result_buffer_B1_start_merge_reg.vhd                                                ;
+; embedded_computer_system/synthesis/submodules/result_buffer_function.vhd                                                          ;
+; embedded_computer_system/synthesis/submodules/result_buffer_function_wrapper.vhd                                                  ;
+; embedded_computer_system/synthesis/submodules/result_buffer_internal.v                                                            ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B0_runOnce_branch.vhd                                                 ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B0_runOnce_merge.vhd                                                  ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B0_runOnce_merge_reg.vhd                                              ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B1_start_branch.vhd                                                   ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B1_start_merge.vhd                                                    ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B1_start_merge_reg.vhd                                                ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B2_branch.vhd                                                         ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B2_merge.vhd                                                          ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B2_merge_reg.vhd                                                      ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B3_branch.vhd                                                         ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_B3_merge.vhd                                                          ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_function.vhd                                                          ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_function_wrapper.vhd                                                  ;
+; embedded_computer_system/synthesis/submodules/sample_buffer_internal.v                                                            ;
+; embedded_computer_system/synthesis/submodules/six_three_comp.v                                                                    ;
+; embedded_computer_system/synthesis/submodules/st_top.v                                                                            ;
+; embedded_computer_system/synthesis/submodules/ternary_add.v                                                                       ;
+; embedded_computer_system/synthesis/submodules/thirtysix_six_comp.v                                                                ;
+; embedded_computer_system/synthesis/submodules/TIMER_HW_IP.vhd                                                                     ;
+; embedded_computer_system/synthesis/submodules/timer_top.vhd                                                                       ;
+; embedded_computer_system/synthesis/submodules/VGA_IP.vhd                                                                          ;
+; embedded_computer_system/synthesis/submodules/vga_sync.vhd                                                                        ;
+; embedded_computer_system/synthesis/submodules/VHDL_DUALPORT_RAM.vhd                                                               ;
++-----------------------------------------------------------------------------------------------------------------------------------+
+
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system name="$${FILENAME}">
+ <component
+   name="$${FILENAME}"
+   displayName="$${FILENAME}"
+   version="1.0"
+   description=""
+   tags="INTERNAL_COMPONENT=false"
+   categories="HLS" />
+ <parameter name="bonusData"><![CDATA[bonusData 
+{
+   element result_buffer_internal_inst
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+   }
+}
+]]></parameter>
+ <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
+ <parameter name="device" value="10M50DAF672I7G" />
+ <parameter name="deviceFamily" value="MAX 10" />
+ <parameter name="deviceSpeedGrade" value="7" />
+ <parameter name="fabricMode" value="QSYS" />
+ <parameter name="generateLegacySim" value="false" />
+ <parameter name="generationId" value="0" />
+ <parameter name="globalResetBus" value="false" />
+ <parameter name="hdlLanguage" value="VERILOG" />
+ <parameter name="hideFromIPCatalog" value="false" />
+ <parameter name="lockedInterfaceDefinition" value="" />
+ <parameter name="maxAdditionalLatency" value="1" />
+ <parameter name="projectName" value="" />
+ <parameter name="sopcBorderPoints" value="false" />
+ <parameter name="systemHash" value="0" />
+ <parameter name="testBenchDutName" value="" />
+ <parameter name="timeStamp" value="0" />
+ <parameter name="useTestBenchNamingPattern" value="false" />
+ <instanceScript></instanceScript>
+ <interface
+   name="avs_result_buffer"
+   internal="result_buffer_internal_inst.avs_result_buffer"
+   type="avalon"
+   dir="end">
+  <port name="avs_result_buffer_read" internal="avs_result_buffer_read" />
+  <port name="avs_result_buffer_write" internal="avs_result_buffer_write" />
+  <port name="avs_result_buffer_address" internal="avs_result_buffer_address" />
+  <port
+     name="avs_result_buffer_writedata"
+     internal="avs_result_buffer_writedata" />
+  <port
+     name="avs_result_buffer_byteenable"
+     internal="avs_result_buffer_byteenable" />
+  <port
+     name="avs_result_buffer_readdata"
+     internal="avs_result_buffer_readdata" />
+ </interface>
+ <interface
+   name="call"
+   internal="result_buffer_internal_inst.call"
+   type="conduit"
+   dir="end">
+  <port name="start" internal="start" />
+  <port name="busy" internal="busy" />
+ </interface>
+ <interface
+   name="clock"
+   internal="result_buffer_internal_inst.clock"
+   type="clock"
+   dir="end">
+  <port name="clock" internal="clock" />
+ </interface>
+ <interface
+   name="reset"
+   internal="result_buffer_internal_inst.reset"
+   type="reset"
+   dir="end">
+  <port name="resetn" internal="resetn" />
+ </interface>
+ <interface
+   name="result_in"
+   internal="result_buffer_internal_inst.result_in"
+   type="avalon_streaming"
+   dir="end">
+  <port name="result_in_data" internal="result_in_data" />
+  <port name="result_in_ready" internal="result_in_ready" />
+  <port name="result_in_valid" internal="result_in_valid" />
+ </interface>
+ <interface
+   name="return"
+   internal="result_buffer_internal_inst.return"
+   type="conduit"
+   dir="end">
+  <port name="done" internal="done" />
+  <port name="stall" internal="stall" />
+ </interface>
+ <module
+   name="result_buffer_internal_inst"
+   kind="result_buffer_internal"
+   version="1.0"
+   enabled="1"
+   autoexport="1" />
+ <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
+ <interconnectRequirement for="$system" name="qsys_mm.enableEccProtection" value="FALSE" />
+ <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="FALSE" />
+ <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
+</system>
